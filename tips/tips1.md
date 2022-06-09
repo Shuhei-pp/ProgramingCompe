@@ -17,3 +17,6 @@ for _ in ~。
 二次元配列作成
 [[0]*n for _ in range(n)]
 が早い
+
+・最大公約数
+mathライブラリのgcd
