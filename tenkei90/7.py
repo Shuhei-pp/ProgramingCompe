@@ -5,6 +5,7 @@ N= int(input())
 A = list(map(int, input().split()))
 Q = int(input())
 
+# nibu
 def judge(x):
   if len(A)==1:
     return abs(A[0]-x)

@@ -5,6 +5,7 @@ N,L=  map(int, input().split())
 K = int(input())
 A = list(map(int, input().split()))
 
+# nibu
 def judge(x):
   parts = 0
   count = 0
@@ -17,11 +18,6 @@ def judge(x):
         if L - parts >= x:
           return True
   return False
-
-# for _ in range(1,L):
-#   if judge(_) == False:
-#     print(_-1)
-#     exit()
 
 left = 0
 right = L
